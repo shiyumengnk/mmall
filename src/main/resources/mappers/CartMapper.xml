@@ -30,8 +30,7 @@
       quantity, checked, create_time, 
       update_time)
     values (#{id,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{productId,jdbcType=INTEGER}, 
-      #{quantity,jdbcType=INTEGER}, #{checked,jdbcType=INTEGER}, now(),
-      now())
+      #{quantity,jdbcType=INTEGER}, #{checked,jdbcType=INTEGER}, now(),now())
   </insert>
   <insert id="insertSelective" parameterType="com.sym.mmall.pojo.Cart" >
     insert into mmall_cart
