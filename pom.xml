@@ -196,6 +196,16 @@
       <artifactId>jsqlparser</artifactId>
       <version>0.9.4</version>
     </dependency>
+      <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+          <version>2.5</version>
+      </dependency>
+      <dependency>
+          <groupId>antlr</groupId>
+          <artifactId>antlr</artifactId>
+          <version>2.7.7</version>
+      </dependency>
 
   </dependencies>
 
